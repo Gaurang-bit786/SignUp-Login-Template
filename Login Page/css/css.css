@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+}
+
+#myform{
+    border-color: black;
+}
+
+#login{
+    color:white;
+    background-color: orange;
+}
+#banner{
+    max-height: 50ch;
+}
+
+#login:hover{
+    border-color: yellow;
+    color:yellow;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+#imageColum {
+    height: fit-content;
+}
+
+#links {
+    color:black;
+    font-size: small;
+}
+
+.lable {
+    color:teal;
+    font-size: 20;
+    margin-top: 30px;
+}
+
+#border{
+    background-color: orange;
+}
+
+@media (max-width:578px) {
+  #imageColum {
+    display: none;
+  }
+}
